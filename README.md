@@ -485,3 +485,15 @@ erDiagram
 
 [:arrow_up:Оглавление](#Оглавление) 
 ____
+
+__Synchronizing repositories__
+
+* **git fetch [remote]** - Fetch changes from the remote, but not update tracking branches.
+
+* **$ git fetch --prune [remote]** - Delete remote Refs that were removed from the remote repository.
+
+* **git pull [remote]** - Fetch changes from the remote and merge current branch with its upstream.
+
+* **git push [--tags] [remote]** - Push local changes to the remote. Use --tags to push tags.
+
+* **git push -u [remote] [branch]** - Push local branch to remote repository. Set its copy as an upstream.
