@@ -3,11 +3,10 @@
 
 ![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.swRk03c1Crlcg9soOhRS4AHaFF%26pid%3DApi&f=1)
 
-## Это очень просто
+## Is very simple
 
-1. Перейти на ваш [репозиторий](https://github.com/esimankova/formatREADME)
-2. Нажать [__Fork__](https://github.com/esimankova/formatREADME/fork)
-
+1. Go to your [__repository__](https://github.com/esimankova/formatREADME)
+2. Press [__Fork__](https://github.com/esimankova/formatREADME/fork)
 
 
 ## Оглавление
