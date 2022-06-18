@@ -6,7 +6,7 @@
 ## Это очень просто
 
 1. Перейти на ваш [репозиторий](https://github.com/esimankova/formatREADME)
-
+2. Нажать [__Fork__](https://github.com/esimankova/formatREADME/fork)
 
 
 
