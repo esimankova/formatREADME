@@ -1,7 +1,7 @@
 # EMOJI CHEAT SHEET
 
 [Назад к README.md](https://github.com/esimankova/formatREADME/blob/main/README.md)
-
+Забавные смайлики
 
 ##  People
 |		|		|		|
