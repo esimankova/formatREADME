@@ -1,6 +1,14 @@
 # Описание разметки файла README.md
 Для описания проектов на GitHub используется README.md, который пишется на языке разметки markdown. Что и как поддерживается расписано ниже.
 
+![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.swRk03c1Crlcg9soOhRS4AHaFF%26pid%3DApi&f=1)
+
+## Is very simple
+
+1. Go to your [__repository__](https://github.com/esimankova/formatREADME)
+2. Press [__Fork__](https://github.com/esimankova/formatREADME/fork)
+3. Add readme. Watch and learn.
+
 ## Оглавление
 
 0. [Разделительная черта](#Разделительная-черта)
@@ -485,3 +493,4 @@ erDiagram
 
 [:arrow_up:Оглавление](#Оглавление) 
 ____
+
