@@ -19,6 +19,7 @@
 9. [Вставка таблиц](#Вставка-таблиц)
 10. [Диаграмм Mermaid.js](#диаграмм-mermaidjs)
 11. [Дополнения](https://github.com/GnuriaN/format-README/blob/master/Дополнения.md)
+12. [Конец](#Конец)
     
 ## Разделительная черта
 При использовании
@@ -482,6 +483,8 @@ erDiagram
     CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
 ```
 Очень подробно на русском языке о диаграммах Mermaid.js: https://habr.com/ru/post/652867/ 
+
+## Конец
 
 [:arrow_up:Оглавление](#Оглавление) 
 ____
