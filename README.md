@@ -485,3 +485,17 @@ erDiagram
 
 [:arrow_up:Оглавление](#Оглавление) 
 ____
+
+## Семинар 3
+### Осваиваем работу с github
+1. :white_check_mark: Создали fork от репозитория преподавателя
+2. :white_check_mark: Склонировали к себе на компьютер
+3. :white_check_mark: Создали отдельную ветку
+4. :white_check_mark: Переключились на нее
+5. :white_check_mark: Внесли изменения в файл
+6. :black_square_button: Добавляем файл git add README.md
+7. :black_square_button: Коммитим
+8. :black_square_button: Заливаем на github к себе в форк. Используем git push
+9. :black_square_button: Далее работаем на портале github
+10. :black_square_button: Создаем pull request, скриншотим и отправляем в основной репозиторий
+11. :black_square_button: Сдаем ДЗ 
