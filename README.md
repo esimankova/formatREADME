@@ -7,7 +7,7 @@
 
 1. Go to your [__repository__](https://github.com/esimankova/formatREADME)
 2. Press [__Fork__](https://github.com/esimankova/formatREADME/fork)
-
+3. Add readme. Watch and learn.
 
 ## Оглавление
 
