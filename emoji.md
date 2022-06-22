@@ -243,8 +243,8 @@
 |	:ferris_wheel:    `:ferris_wheel:`	|	:train:    `:train:`	|	:ru:    `:ru:`	|
 |	:fountain:    `:fountain:`	|	:station:    `:station:`	|	:gb:    `:gb:`	|
 |	:roller_coaster:    `:roller_coaster:`	|	:train2:    `:train2:`	|	:uk:    `:uk:`	|
-|	:ship:    `:ship:`	|	:bullettrain_front:    `:bullettrain_front:`	|	:de:    `:de:`	|
-|	:speedboat:    `:speedboat:`	|	:bullettrain_side:    `:bullettrain_side:`	|		|
+|	:ship:    `:ship:`	|	:bullettrain_front:    `:bullettrain_front:`	|	:de:    `:de:`	| 
+|	:speedboat:    `:speedboat:`	|	:bullettrain_side:    `:bullettrain_side:`	|	:🇷🇼 Flag:	|
 |	:boat:    `:boat:`	|	:light_rail:    `:light_rail:`	|		|
 
 
