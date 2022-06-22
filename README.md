@@ -485,3 +485,6 @@ erDiagram
 
 [:arrow_up:Оглавление](#Оглавление) 
 ____
+
+# Now, i have full instruction gor markdown. Thankyou!!!
+12
