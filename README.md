@@ -1,6 +1,9 @@
 # Описание разметки файла README.md
 Для описания проектов на GitHub используется README.md, который пишется на языке разметки markdown. Что и как поддерживается расписано ниже.
 
+_*Отработка Pull request*_: 
+[Справочник от Microsoft по языку Markdown](https://docs.microsoft.com/ru-ru/contribute/markdown-reference)
+
 ## Оглавление
 
 0. [Разделительная черта](#Разделительная-черта)
