@@ -416,6 +416,8 @@ ___
 [wikipedia(DOT)org]:(wikipedia.org)
     
 [:arrow_up:Оглавление](#Оглавление)
+
+#### _To find Nature Relaxation Films and Calm Music_ [click here](https://www.youtube.com/channel/UCfmkmlx1xfS7VfIh9KB-HDA)
 ____
 ## Вставка изображения
 ```
@@ -429,7 +431,16 @@ ____
 Пример:        
 ```[![Тут текст](https://img.youtube.com/vi/SEvR78OhGtw/0.jpg)](https://youtu.be/SEvR78OhGtw)```        
 Что мы увидим:        
-[![Тут текст](https://img.youtube.com/vi/SEvR78OhGtw/0.jpg)](https://youtu.be/SEvR78OhGtw)        
+[![Тут текст](https://img.youtube.com/vi/SEvR78OhGtw/0.jpg)](https://youtu.be/SEvR78OhGtw)   
+
+Приятного промотра!
+1.  [![Italy 4K](https://i.ytimg.com/vi/d1ZvoFzbX8M/hqdefault.jpg)](https://www.youtube.com/watch?v=d1ZvoFzbX8M) 
+_______________________
+
+2.  [![Switzerland 4K](https://i.ytimg.com/vi/q6tiK-yJCcU/maxresdefault.jpg)](https://www.youtube.com/watch?v=q6tiK-yJCcU) 
+
+_______________________
+
         
 [:arrow_up:Оглавление](#Оглавление) 
 ____
