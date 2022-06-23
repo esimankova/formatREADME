@@ -429,7 +429,11 @@ ____
 Пример:        
 ```[![Тут текст](https://img.youtube.com/vi/SEvR78OhGtw/0.jpg)](https://youtu.be/SEvR78OhGtw)```        
 Что мы увидим:        
-[![Тут текст](https://img.youtube.com/vi/SEvR78OhGtw/0.jpg)](https://youtu.be/SEvR78OhGtw)        
+[![Тут текст](https://img.youtube.com/vi/SEvR78OhGtw/0.jpg)](https://youtu.be/SEvR78OhGtw)   
+
+Приятного промотра!
+[![My page](https://i.ytimg.com/vi/d1ZvoFzbX8M/hqdefault.jpg)](https://www.youtube.com/watch?v=d1ZvoFzbX8M) 
+
         
 [:arrow_up:Оглавление](#Оглавление) 
 ____
