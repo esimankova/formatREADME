@@ -3,7 +3,7 @@
 [Назад к README.md](https://github.com/esimankova/formatREADME/blob/main/README.md)
 
 
-##  People
+##  People and aliens
 |		|		|		|
 |	-	|	-	|	-	|
 |	:bowtie:    `:bowtie:`	|	:rage:    `:rage:`	|	:ok_hand:    `:ok_hand:`	|
