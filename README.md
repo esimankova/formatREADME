@@ -138,6 +138,7 @@ ____
 :negative_squared_cross_mark: Я не буду это делать    
 :black_square_button: делать или не делать, вот в чем вопрос?    
 ```
+# Добавила строчку для того что-бы сдать домашку :))
 
 Список работающих Эмодзи находится тут -> [emoji.md](https://github.com/esimankova/formatREADME/blob/main/emoji.md)    
     
