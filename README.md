@@ -533,10 +533,10 @@ ____
 
 Ура! Дочитал! Сохранил сей полезный документ.
 
-#Зая.
+# Зая.
 
 ![kroliki](https://user-images.githubusercontent.com/110193009/182026262-cf0f35c7-d936-437e-a0d1-0fe63431456b.jpg)
 
-#Котобутербродный генератор.
+# Котобутербродный генератор.
 
 [![Котобутербродный генератор](https://i.ytimg.com/vi/8L69pa0yK80/maxresdefault.jpg)](https://www.youtube.com/watch?v=8L69pa0yK80)
