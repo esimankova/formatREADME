@@ -20,6 +20,10 @@
 10. [Диаграмм Mermaid.js](#диаграмм-mermaidjs)
 11. [Дополнения](https://github.com/GnuriaN/format-README/blob/master/Дополнения.md)
 12. [Вставка кода](#Вставка-кода)
+
+Добавим немного магии, чтобы все получилось.
+
+![Магия](https://www.meme-arsenal.com/memes/1fa0ca303db5c4754f91ba94b98c8259.jpg)
     
 ## Разделительная черта
 При использовании
