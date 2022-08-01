@@ -572,6 +572,18 @@ ____
 
 Если внутри кода есть апостроф, то код надо обрамить двойными апострофами: ``There is a literal backtick (`) here.``
 
+<<<<<<< HEAD
 ## Что бы добавить...
 
 Учиться, учиться и ещё раз...
+=======
+Ура! Дочитал! Сохранил сей полезный документ.
+
+# Зая.
+
+![kroliki](https://user-images.githubusercontent.com/110193009/182026262-cf0f35c7-d936-437e-a0d1-0fe63431456b.jpg)
+
+# Котобутербродный генератор.
+
+[![Котобутербродный генератор](https://i.ytimg.com/vi/8L69pa0yK80/maxresdefault.jpg)](https://www.youtube.com/watch?v=8L69pa0yK80)
+>>>>>>> 94d84660e23186c0efe1ad9b529fc13bfc15e0d7
