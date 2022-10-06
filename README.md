@@ -530,3 +530,9 @@ ____
 Для вставки кода внутри предложений нужно заключать этот код в апострофы (на букве Ё). Пример: `<html class="ie no-js">`.
 
 Если внутри кода есть апостроф, то код надо обрамить двойными апострофами: ``There is a literal backtick (`) here.``
+
+
+Everybody going to the party
+have a real goodtime
+Dancing in the desert 
+Blowing up the sunshine
