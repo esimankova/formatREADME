@@ -1,0 +1,541 @@
+Семинар 2
+==========================================
+
+Windows PowerShell
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+Попробуйте новую кроссплатформенную оболочку PowerShell (https://aka.ms/pscore6)
+
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git init .\git_seminar_2.md
+fatal: cannot mkdir .\git_seminar_2.md: File exists
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git init
+Initialized empty Git repository in D:/python_gb/Новое обучение/Введение в контроль версий/homework_2/.git/
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git add .\git_seminar_2.md
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git commit -m "New file added"
+[master (root-commit) 9b97ccb] New file added
+ 1 file changed, 5 insertions(+)
+ create mode 100644 git_seminar_2.md
+* master
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git branch
+  branch2
+* master
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git checkout branch2
+Switched to branch 'branch2'
+* branch2
+  master
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2>
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git add .\git_seminar_2.md
+ 1 file changed, 1 insertion(+)
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git commit --amend
+ Date: Fri Oct 7 14:22:57 2022 +0300
+commit 1010f53e9aa4c57aec3d3153dd01ce83ee639fd2 (HEAD -> branch2)
+Author: Karina <claro.claire1996@gmail.com>
+
+
+Author: Karina <claro.claire1996@gmail.com>
+
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git checkout master
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git log
+commit 9b97ccbb126a1bde37a35277428ded08f2c7031a (HEAD -> master)
+Author: Karina <claro.claire1996@gmail.com>
+Date:   Fri Oct 7 14:19:44 2022 +0300
+    New file added
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git merge branch2
+Updating 9b97ccb..1010f53
+Fast-forward
+ git_seminar_2.md | 1 +
+ 1 file changed, 1 insertion(+)
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git add .\git_seminar_2.md
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git commit -m "Third title added" 
+[master 73368d3] Third title added
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git checkout -b branch3
+Switched to a new branch 'branch3'
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git add .\git_seminar_2.md       
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git commit -m "Third title added"
+[branch3 f45838b] Third title added
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git merge branch2
+Already up to date.
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git checkout master
+Switched to branch 'master'
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git checkout branch3
+Switched to branch 'branch3'
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git merge master
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git checkout master
+Switched to branch 'master'
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git merge branch3
+ git_seminar_2.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+commit f45838b3cec36ddeb8892ebab2623ca77b9a9309 (HEAD -> master, branch3)
+Date:   Fri Oct 7 14:34:41 2022 +0300
+
+    Third title added
+
+commit 73368d3bdf6a5bdecf8296becc6c3a9dcf48a617
+
+    Third title added
+commit 1010f53e9aa4c57aec3d3153dd01ce83ee639fd2 (branch2)
+Author: Karina <claro.claire1996@gmail.com>
+Date:   Fri Oct 7 14:22:57 2022 +0300
+    Second command added
+
+commit 9b97ccbb126a1bde37a35277428ded08f2c7031a
+Date:   Fri Oct 7 14:19:44 2022 +0300
+
+    New file added
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git branch
+  branch2
+  branch3
+* master
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git add .\git_seminar_2.md
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git commit -m "Fourth title added"
+[master b043562] Fourth title added
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git checkout branch2
+Switched to branch 'branch2'
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git merge master
+error: Your local changes to the following files would be overwritten by merge:
+        git_seminar_2.md
+Please commit your changes or stash them before you merge.
+Updating 1010f53..b043562
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git add .\git_seminar_2.md
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git commit -m "new commands added"
+[branch2 9c307f0] new commands added
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git merge master
+Auto-merging git_seminar_2.md
+CONFLICT (content): Merge conflict in git_seminar_2.md
+Automatic merge failed; fix conflicts and then commit the result.
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git branch
+* branch2
+  branch3
+  master
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git log
+commit 9c307f0c53fc5049632f4222df7f56167ba787b3 (HEAD -> branch2)
+Author: Karina <claro.claire1996@gmail.com>
+Date:   Fri Oct 7 14:43:38 2022 +0300
+    new commands added
+
+Author: Karina <claro.claire1996@gmail.com>
+
+    Second command added
+
+commit 9b97ccbb126a1bde37a35277428ded08f2c7031a
+Author: Karina <claro.claire1996@gmail.com>
+    New file added
+* commit 9c307f0c53fc5049632f4222df7f56167ba787b3 (HEAD -> branch2)
+| Date:   Fri Oct 7 14:43:38 2022 +0300
+|
+|     new commands added
+|
+* commit 1010f53e9aa4c57aec3d3153dd01ce83ee639fd2
+| Author: Karina <claro.claire1996@gmail.com>
+| Date:   Fri Oct 7 14:22:57 2022 +0300
+|
+|     Second command added
+|
+* commit 9b97ccbb126a1bde37a35277428ded08f2c7031a
+  Author: Karina <claro.claire1996@gmail.com>
+  Date:   Fri Oct 7 14:19:44 2022 +0300
+
+      New file added
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git checkout master
+error: you need to resolve your current index first
+git_seminar_2.md: needs merge
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git .\git_seminar_2.md
+git: '.\git_seminar_2.md' is not a git command. See 'git --help'.
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git commit -m "Resolve conflict"
+error: Committing is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+U       git_seminar_2.md
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git add .\git_seminar_2.md
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git commit -m "Resolve conflict"
+[branch2 9703007] Resolve conflict
+Switched to branch 'master'
+commit b043562776e9092b5eb09be048159d449187a375 (HEAD -> master)
+Author: Karina <claro.claire1996@gmail.com>
+Date:   Fri Oct 7 14:40:05 2022 +0300
+
+    Fourth title added
+
+commit f45838b3cec36ddeb8892ebab2623ca77b9a9309 (branch3)
+Author: Karina <claro.claire1996@gmail.com>
+Date:   Fri Oct 7 14:34:41 2022 +0300
+
+    Third title added
+
+commit 73368d3bdf6a5bdecf8296becc6c3a9dcf48a617
+Author: Karina <claro.claire1996@gmail.com>
+Date:   Fri Oct 7 14:32:55 2022 +0300
+
+    Third title added
+
+commit 1010f53e9aa4c57aec3d3153dd01ce83ee639fd2
+Author: Karina <claro.claire1996@gmail.com>
+Date:   Fri Oct 7 14:22:57 2022 +0300
+
+    Second command added
+
+commit 9b97ccbb126a1bde37a35277428ded08f2c7031a
+Author: Karina <claro.claire1996@gmail.com>
+Date:   Fri Oct 7 14:19:44 2022 +0300
+
+    New file added
+fatal: unrecognized argument: -graph
+* commit b043562776e9092b5eb09be048159d449187a375 (HEAD -> master)
+| Author: Karina <claro.claire1996@gmail.com>
+| Date:   Fri Oct 7 14:40:05 2022 +0300
+|
+|     Fourth title added
+|
+* commit f45838b3cec36ddeb8892ebab2623ca77b9a9309 (branch3)
+| Author: Karina <claro.claire1996@gmail.com>
+| Date:   Fri Oct 7 14:34:41 2022 +0300
+|
+|     Third title added
+|
+* commit 73368d3bdf6a5bdecf8296becc6c3a9dcf48a617
+| Author: Karina <claro.claire1996@gmail.com>
+| Date:   Fri Oct 7 14:32:55 2022 +0300
+|
+|     Third title added
+|
+* commit 1010f53e9aa4c57aec3d3153dd01ce83ee639fd2
+| Author: Karina <claro.claire1996@gmail.com>
+| Date:   Fri Oct 7 14:22:57 2022 +0300
+|
+|     Second command added
+|
+* commit 9b97ccbb126a1bde37a35277428ded08f2c7031a
+  Author: Karina <claro.claire1996@gmail.com>
+  Date:   Fri Oct 7 14:19:44 2022 +0300
+
+      New file added
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git checkout branch2
+Switched to branch 'branch2'
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git log --graph
+*   commit 9703007a04fef4ef7270bb25114f360e35e2590e (HEAD -> branch2)
+|\  Merge: 9c307f0 b043562
+| | Author: Karina <claro.claire1996@gmail.com>
+| | Date:   Fri Oct 7 14:52:33 2022 +0300
+| |
+| |     Resolve conflict
+| |
+| * commit b043562776e9092b5eb09be048159d449187a375 (master)
+| | Author: Karina <claro.claire1996@gmail.com>
+| | Date:   Fri Oct 7 14:40:05 2022 +0300
+| |     Fourth title added
+| * commit f45838b3cec36ddeb8892ebab2623ca77b9a9309 (branch3)
+| | Author: Karina <claro.claire1996@gmail.com>
+| | Date:   Fri Oct 7 14:34:41 2022 +0300
+| |
+| |
+| | Author: Karina <claro.claire1996@gmail.com>
+| |
+| |
+* | commit 9c307f0c53fc5049632f4222df7f56167ba787b3
+|/  Author: Karina <claro.claire1996@gmail.com>
+|   Date:   Fri Oct 7 14:43:38 2022 +0300
+|
+|       new commands added
+|
+* commit 1010f53e9aa4c57aec3d3153dd01ce83ee639fd2
+| Author: Karina <claro.claire1996@gmail.com>
+| Date:   Fri Oct 7 14:22:57 2022 +0300
+|
+|     Second command added
+|
+* commit 9b97ccbb126a1bde37a35277428ded08f2c7031a
+  Author: Karina <claro.claire1996@gmail.com>
+  Date:   Fri Oct 7 14:19:44 2022 +0300
+
+      New file added
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git checkout master
+Switched to branch 'master'
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git merge branch2
+Updating b043562..9703007
+Fast-forward
+ git_seminar_2.md | 8 +++++++-
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git branch -d branch2
+Deleted branch branch2 (was 9703007).
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git merge branch3
+Already up to date.
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git branch -d branch3
+Deleted branch branch3 (was f45838b).
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git log --graph
+*   commit 9703007a04fef4ef7270bb25114f360e35e2590e (HEAD -> master)
+|\  Merge: 9c307f0 b043562
+| | Author: Karina <claro.claire1996@gmail.com>
+| | Date:   Fri Oct 7 14:52:33 2022 +0300
+| |
+| |     Resolve conflict
+| |
+| * commit b043562776e9092b5eb09be048159d449187a375
+| | Author: Karina <claro.claire1996@gmail.com>
+| | Date:   Fri Oct 7 14:40:05 2022 +0300
+| |     Fourth title added
+| |
+| * commit f45838b3cec36ddeb8892ebab2623ca77b9a9309
+| | Author: Karina <claro.claire1996@gmail.com>
+| | Date:   Fri Oct 7 14:34:41 2022 +0300
+| |
+| |     Third title added
+| |
+| * commit 73368d3bdf6a5bdecf8296becc6c3a9dcf48a617
+| | Author: Karina <claro.claire1996@gmail.com>
+| | Date:   Fri Oct 7 14:32:55 2022 +0300
+| |
+| |     Third title added
+| |
+* | commit 9c307f0c53fc5049632f4222df7f56167ba787b3
+|/  Author: Karina <claro.claire1996@gmail.com>
+|   Date:   Fri Oct 7 14:43:38 2022 +0300
+|
+|       new commands added
+|
+* commit 1010f53e9aa4c57aec3d3153dd01ce83ee639fd2
+| Author: Karina <claro.claire1996@gmail.com>
+| Date:   Fri Oct 7 14:22:57 2022 +0300
+|
+|     Second command added
+|
+* commit 9b97ccbb126a1bde37a35277428ded08f2c7031a
+  Author: Karina <claro.claire1996@gmail.com>
+  Date:   Fri Oct 7 14:19:44 2022 +0300
+
+      New file added
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2>
+
+
+
+=======================================================================     
+Домашняя работа                                                                <----------------------
+=======================================================================
+
+а) создадим четыре ветки
+
+
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git branch
+* master
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git branch branch1 
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git branch branch2
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git branch branch3
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git branch branch4
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git branch
+  branch1
+  branch2
+  branch3
+  branch4
+* master
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> 
+
+-----------------------------------------------------------------------
+б) добавляем и закоммитим изменения файла
+
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git checkout branch1
+Switched to branch 'branch1'
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git add .\git_seminar_2.md
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git commit -m "added new command"
+[branch1 cc0c1e4] added new command
+ 1 file changed, 3 insertions(+)
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git checkout branch2
+Switched to branch 'branch2'
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git add .\git_seminar_2.md
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git commit -m "added new command"
+[branch2 244c924] added new command
+ 1 file changed, 3 insertions(+)
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git checkout branch3
+Switched to branch 'branch3'
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git add .\git_seminar_2.md       
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git commit -m "added new command"
+[branch3 10d0ac2] added new command
+ 1 file changed, 2 insertions(+)
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git checkout branch4
+Switched to branch 'branch4'
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git add .\git_seminar_2.md       
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git commit -m "added new command"
+[branch4 138978a] added new command
+ 1 file changed, 2 insertions(+)
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git checkout master
+Switched to branch 'master'
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git log --graph
+*   commit 9703007a04fef4ef7270bb25114f360e35e2590e (HEAD -> master)
+|\  Merge: 9c307f0 b043562
+| | Author: Karina <claro.claire1996@gmail.com>
+| | Date:   Fri Oct 7 14:52:33 2022 +0300
+| |
+| |     Resolve conflict
+| |
+| * commit b043562776e9092b5eb09be048159d449187a375
+| | Author: Karina <claro.claire1996@gmail.com>
+| | Date:   Fri Oct 7 14:40:05 2022 +0300
+| |
+| |     Fourth title added
+| |
+| * commit f45838b3cec36ddeb8892ebab2623ca77b9a9309
+| | Author: Karina <claro.claire1996@gmail.com>
+| | Date:   Fri Oct 7 14:34:41 2022 +0300
+| |
+| |     Third title added
+| |
+| * commit 73368d3bdf6a5bdecf8296becc6c3a9dcf48a617
+| | Author: Karina <claro.claire1996@gmail.com>
+| | Date:   Fri Oct 7 14:32:55 2022 +0300
+| |
+| |     Third title added
+| |
+* | commit 9c307f0c53fc5049632f4222df7f56167ba787b3
+|/  Author: Karina <claro.claire1996@gmail.com>
+|   Date:   Fri Oct 7 14:43:38 2022 +0300
+|
+|       new commands added
+|
+* commit 1010f53e9aa4c57aec3d3153dd01ce83ee639fd2
+| Author: Karina <claro.claire1996@gmail.com>
+| Date:   Fri Oct 7 14:22:57 2022 +0300
+|
+|     Second command added
+|
+* commit 9b97ccbb126a1bde37a35277428ded08f2c7031a
+  Author: Karina <claro.claire1996@gmail.com>
+  Date:   Fri Oct 7 14:19:44 2022 +0300
+  
+      New file added
+(END)
+----------------------------------------------------------
+
+в) сделаем слияния этих веток и разрешаем конфликты:
+
+
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git merge branch2
+Already up to date.
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git merge branch3
+Auto-merging git_seminar_2.md
+CONFLICT (content): Merge conflict in git_seminar_2.md
+Automatic merge failed; fix conflicts and then commit the result.
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git add .\git_seminar_2.md 
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git commit -m "Merging"    
+[master e2b9934] Merging
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git merge branch3
+Already up to date.
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git merge branch4
+Auto-merging git_seminar_2.md
+CONFLICT (content): Merge conflict in git_seminar_2.md
+Automatic merge failed; fix conflicts and then commit the result.
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git add .\git_seminar_2.md 
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git commit -m "Resolved all conflicts"
+[master 87994b0] Resolved all conflicts
+PS D:\python_gb\Новое обучение\Введение в контроль версий\homework_2> git log --graph
+*   commit 87994b0002d332820318fe68f4ca27e71477cfea (HEAD -> master)
+|\  Merge: e2b9934 138978a
+| | Author: Karina <claro.claire1996@gmail.com>
+| | Date:   Fri Oct 7 15:57:09 2022 +0300
+| |
+| |     Resolved all conflicts
+| |
+| * commit 138978aa83c19b6aa3f74390f845118ad04ef0f3 (branch4)
+| | Author: Karina <claro.claire1996@gmail.com>
+| | Date:   Fri Oct 7 15:48:16 2022 +0300
+| |
+| |     added new command
+| |
+* |   commit e2b993434e45e8a4c311b481b531ddeef7bff3bc
+|\ \  Merge: 9b055be 10d0ac2
+| | | Author: Karina <claro.claire1996@gmail.com>
+| | | Date:   Fri Oct 7 15:56:17 2022 +0300
+| | |
+| | |     Merging
+| | |
+| * | commit 10d0ac21f79b0797064aedd9c3a9e83302bb62c7 (branch3)
+| |/  Author: Karina <claro.claire1996@gmail.com>
+| |   Date:   Fri Oct 7 15:47:32 2022 +0300
+| |
+| |       added new command
+| |
+* |   commit 9b055bea6bc3d300b04ac29c1e6dc6b22646eb18
+|\ \  Merge: cc0c1e4 244c924
+| | | Author: Karina <claro.claire1996@gmail.com>
+| | | Date:   Fri Oct 7 15:54:41 2022 +0300
+| | |
+| | |     Merging
+| | | 
+| * | commit 244c924c5031de49f345458ab5280250d0fd080f (branch2)
+| |/  Author: Karina <claro.claire1996@gmail.com>
+| |   Date:   Fri Oct 7 15:46:43 2022 +0300
+| |   
+| |       added new command
+| | 
+* | commit cc0c1e4b503b305722002156f3348f7f17840645 (branch1)
+|/  Author: Karina <claro.claire1996@gmail.com>
+|   Date:   Fri Oct 7 15:45:33 2022 +0300
+|   
+|       added new command
+|
+*   commit 9703007a04fef4ef7270bb25114f360e35e2590e
+|\  Merge: 9c307f0 b043562
+| | Author: Karina <claro.claire1996@gmail.com>
+| | Date:   Fri Oct 7 14:52:33 2022 +0300
+| | 
+| |     Resolve conflict
+| |
+| * commit b043562776e9092b5eb09be048159d449187a375
+| | Author: Karina <claro.claire1996@gmail.com>
+| | Date:   Fri Oct 7 14:40:05 2022 +0300
+| |
+| |     Fourth title added
+| |
+| * commit f45838b3cec36ddeb8892ebab2623ca77b9a9309
+| | Author: Karina <claro.claire1996@gmail.com>
+| | Date:   Fri Oct 7 14:34:41 2022 +0300
+| |
+| |     Third title added
+| |
+| * commit 73368d3bdf6a5bdecf8296becc6c3a9dcf48a617
+| | Author: Karina <claro.claire1996@gmail.com>
+| | Date:   Fri Oct 7 14:32:55 2022 +0300
+| |
+| |     Third title added
+| |
+* | commit 9c307f0c53fc5049632f4222df7f56167ba787b3
+|/  Author: Karina <claro.claire1996@gmail.com>
+|   Date:   Fri Oct 7 14:43:38 2022 +0300
+|
+|       new commands added
+|
+* commit 1010f53e9aa4c57aec3d3153dd01ce83ee639fd2
+| Author: Karina <claro.claire1996@gmail.com>
+| Date:   Fri Oct 7 14:22:57 2022 +0300
+|
+|     Second command added
+|
+* commit 9b97ccbb126a1bde37a35277428ded08f2c7031a
+  Author: Karina <claro.claire1996@gmail.com>
+  Date:   Fri Oct 7 14:19:44 2022 +0300
+
+      New file added
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
