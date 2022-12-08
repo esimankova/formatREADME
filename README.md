@@ -496,16 +496,16 @@ flowchart TD;
     b1[/"Вводим array[]"/]
     c1["minIndex = 0<br>maxIndex = 0<br>index = 1"]
     d1{"index < array.lenght"}
-    d2{"array[index] < array[minindex]"}
+    d2{"array[index] < array[minIndex]"}
     c2["minIndex = index"]
     d3{"array[index] > array[max]"}
     c3["maxIndex = index"]
     c4["index++"]
-    d4{"indexMin < indexMax"}
+    d4{"minIndex < maxIndex"}
     c5["X = -1"]
     c6["X = 1"]
-    c7["index = indexMin + X<br>result = 0"]
-    d5{"index != indexMax"}
+    c7["index = minIndex + X<br>result = 0"]
+    d5{"index != maxIndex"}
     c8["result += array[index]<br>index += X"]
     b2[/"Вывод result"/]
     theEnd(["Конец"])
