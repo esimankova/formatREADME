@@ -498,7 +498,7 @@ flowchart TD;
     d1{"index < array.lenght"}
     d2{"array[index] < array[minIndex]"}
     c2["minIndex = index"]
-    d3{"array[index] > array[max]"}
+    d3{"array[index] > array[maxIndex]"}
     c3["maxIndex = index"]
     c4["index++"]
     d4{"minIndex < maxIndex"}
