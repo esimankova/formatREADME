@@ -319,4 +319,6 @@
 |	:u7a7a:    `:u7a7a:`	|	:soon:    `:soon:`	|	:small_red_triangle_down:    `:small_red_triangle_down:`	|
 |	:u7981:    `:u7981:`	|	:clock1:    `:clock1:`	|	:shipit:    `:shipit:`	|
 |	:sa:    `:sa:`	|	:clock130:    `:clock130:`	|		|
-|	:restroom:    `:restroom:`	|	:clock10:    `:clock10:`	|		|
+|	:restroom:    `:restroom:`	|	:clock10:    `:clock10:`	|		
+
+Здравствуйте! Спасибо за семинары!!|
