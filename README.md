@@ -412,9 +412,12 @@ ___
 [wikipedia.org](https://ru.wikipedia.org/wiki/Markdown)
 ```
 [wikipedia.org](https://ru.wikipedia.org/wiki/Markdown)
-    
-[wikipedia(DOT)org]:(wikipedia.org)
-    
+
+```
+[wikipedia(DOT)org]:(wikipedia.org)    
+[:arrow_up:Оглавление](#Оглавление)
+```
+[wikipedia(DOT)org]:(wikipedia.org)    
 [:arrow_up:Оглавление](#Оглавление)
 ____
 ## Вставка изображения
